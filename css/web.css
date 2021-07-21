@@ -1,0 +1,820 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  text-align: center;
+  background-color:white;
+  font-size: 23px;
+  padding-top: 18px;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+   font-family: "Bebas Neue", cursive;
+  border: 5px solid;
+  box-shadow: 10px 10px 10px #888888;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color:black !important;
+  font-family: "Bebas Neue", cursive;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color:#10996d !important;
+  border-radius: 15px;
+} 
+.navbar-inverse .navbar-brand {
+  color:#10996d !important; 
+  font-family: "Cardo";
+  font-size: 30px;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 17px;
+  background: #fff;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.example-image-link img {
+  width: 1200px;
+  height:700px;
+}
+
+.social-header {
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  font-size: 27px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  height: 40px;
+  align-items: center;
+  padding-bottom: 45px;
+  padding-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  font-weight: bold;
+}
+
+.social-header p{
+  font-style: italic;
+  font-family: "Cardo";
+  color: black;
+  font-size: 30px;
+}
+
+.social-header h2 {
+  font-style: italic;
+  font-family: "Cardo";
+  color: black;
+  font-size: 20px;
+}
+
+.about {
+  width: calc(100% - 200px);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.about h2 {
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 65px;
+  line-height: 1.5;
+  font-family: "Cardo";
+  padding-left: 150px;
+  margin-bottom: 70px;
+}
+
+.about.about_image {
+  text-align: right;
+  padding-right: 38px;
+  padding-left: 50px;
+}
+
+.myImg:hover {
+  border: 10px solid white;
+}
+
+.about img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.container-card {
+  width: 100vw;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.container-card hr {
+   border-top: 2px solid black !important;
+   margin-top: 28px !important;
+   margin-bottom: 39px !important;
+}
+.container-card {
+  font-style: italic;
+  font-family: "Cardo";
+  color: #fff;
+}
+
+.container-card h4 {
+  font-style: italic;
+  font-family: "Cardo";
+  color: #fff;
+  text-align: center;
+}
+
+.container-card h2 {
+  text-align: center;
+}
+.container-card button {
+  border-radius: 10px;
+  color: #fff;
+  background-color: #10996d ;
+  margin: 20px;
+  margin-top: 2px;
+  margin-left: 73px;
+}
+
+.container-card .text_center {
+  text-align: center;
+}
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.border:hover {
+  border: 1px solid white;
+}
+
+.card {
+  height: 379px;
+  width: calc(25% - 20px);
+  background: grey;
+  border-radius: 10px;
+  margin: 10px;
+  transition: background 1s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Image1 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+.Image1:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+.Image1:hover.fa {
+  opacity: 1;
+}
+.Image1:hover h2 {
+  opacity: 1;
+}
+.Image1:hover h4 {
+  opacity: 1;
+}
+.Image1:hover button {
+  opacity: 1;
+}
+.Image2 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+.Image2:hover {
+  background: url("../images/2.jpg") right center no-repeat;
+  background-size: cover;
+}
+.Image2:hover.fa {
+  opacity: 1;
+}
+.Image2:hover h2 {
+  opacity: 1;
+}
+
+.Image2:hover h4 {
+  opacity: 1;
+}
+
+.Image2:hover button {
+  opacity: 1;
+}
+
+.Image3 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image3:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image3:hover.fa {
+  opacity: 1;
+}
+
+.Image3:hover h2 {
+  opacity: 1;
+}
+
+.Image3:hover h4 {
+  opacity: 1;
+}
+
+.Image3:hover button {
+  opacity: 1;
+}
+
+.Image4 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image4:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image4:hover.fa {
+  opacity: 1;
+}
+
+.Image4:hover h2 {
+  opacity: 1;
+}
+
+.Image4:hover h4 {
+  opacity: 1;
+}
+
+.Image4:hover button {
+  opacity: 1;
+}
+
+.Image5 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image5:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image5:hover.fa {
+  opacity: 1;
+}
+
+.Image5:hover h2 {
+  opacity: 1;
+}
+
+.Image5:hover h4 {
+  opacity: 1;
+}
+
+.Image5:hover button {
+  opacity: 1;
+}
+
+.Image6 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image6:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image6:hover.fa {
+  opacity: 1;
+}
+
+.Image6:hover h2 {
+  opacity: 1;
+}
+
+.Image6:hover h4 {
+  opacity: 1;
+}
+
+.Image6:hover button {
+  opacity: 1;
+}
+
+.Image7 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image7:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image7:hover.fa {
+  opacity: 1;
+}
+
+.Image7:hover h2 {
+  opacity: 1;
+}
+
+.Image7:hover h4 {
+  opacity: 1;
+}
+
+.Image7:hover button {
+  opacity: 1;
+}
+
+.Image8 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image8:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image8:hover.fa {
+  opacity: 1;
+}
+
+.Image8:hover h2 {
+  opacity: 1;
+}
+
+.Image8:hover h4 {
+  opacity: 1;
+}
+
+.Image8:hover button {
+  opacity: 1;
+}
+
+.Image9 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image9:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image9:hover.fa {
+  opacity: 1;
+}
+
+.Image9:hover h2 {
+  opacity: 1;
+}
+
+.Image9:hover h4 {
+  opacity: 1;
+}
+
+.Image9:hover button {
+  opacity: 1;
+}
+
+.Image10 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image10:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image10:hover.fa {
+  opacity: 1;
+}
+
+.Image10:hover h2 {
+  opacity: 1;
+}
+
+.Image10:hover h4 {
+  opacity: 1;
+}
+
+.Image10:hover button {
+  opacity: 1;
+}
+
+.Image11 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image11:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image11:hover.fa {
+  opacity: 1;
+}
+
+.Image11:hover h2 {
+  opacity: 1;
+}
+
+.Image11:hover h4 {
+  opacity: 1;
+}
+
+.Image11:hover button {
+  opacity: 1;
+}
+
+.Image12 {
+  background: url("../images/2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Image12:hover {
+  background: url("../images/2.jpg") left center no-repeat;
+  background-size: cover;
+}
+
+.Image12:hover.fa {
+  opacity: 1;
+}
+
+.Image12:hover h2 {
+  opacity: 1;
+}
+
+.Image12:hover h4 {
+  opacity: 1;
+}
+
+.Image12:hover button {
+  opacity: 1;
+}
+
+.border h2 {
+  font-family: "Cardo";
+  color: white;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.border h4 {
+  font-family: "Cardo";
+  color: white;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.border button {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.fa {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icons_footer {
+  text-align: center;
+  margin: 50px;
+  margin-bottom: 26px;
+  height: 100px;
+  font-size: 30px;
+}
+
+.icons_footer p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: white url('../images/loading-hourglass.gif') no-repeat center;
+  z-index: 999;
+}
+
+.footer-photo {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.section-heading {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 64px;
+  color: #10996d;
+  margin: 55px 0 30px;}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.profile {
+  position: relative;
+  transition: all 0.3s;
+}
+
+.profile:hover {
+  transform: translateY(25px);
+}
+
+.profile img {
+  max-width: 300px;
+  border-radius: 50%;
+  border: 5px solid #f7f7f7;
+  filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
+  cursor: pointer;
+}
+
+.profile:not(:first-child) img {
+  margin-left: -20px;
+}
+
+.profile .name {
+  position: absolute;
+  background-color: #10996d;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  padding: 15px 30px;
+  border-radius: 100px;
+  bottom: 20px;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50px);
+  letter-spacing: 1px;
+  font-size: 20px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.profile .name::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #10996d;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.profile img:hover + .name {
+  opacity: 1;
+  transform: translateX(-50%);
+  box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);
+}
+
+.contact-main {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-image: url('../images/mydalat_1.jpg');
+  background-size: cover;
+  background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	color: #fff;
+  
+}
+
+.section-title {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.section-title {
+  position: relative;
+}
+
+.section-title h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: "Bebas Neue", cursive;
+  color: #000;
+}
+
+.contact-form input, textarea{
+  width: 85%;
+  border: 2.5px  solid black;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  margin-top: 10px; 
+  color:black;
+}
+
+.my-contact {
+  text-align: left;
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.my-contact i.fa {
+  position:absolute;
+  left:0;
+  top:45%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 5%;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #10996d;
+  font-size: 25px;
+  border: 3px solid black;
+
+}
+
+.my-contact h5{
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  -webkit-text-stroke: 1px black; /* width and color */
+
+}
+
+.my-contact p {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  padding-top: 0px;
+  -webkit-text-stroke: 1px black; /* width and color */
+
+}
+
+.contact-form input[type="submit"] {
+  font-family: "Bebas Neue", cursive;
+  background-color: #10996d;
+	border: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.contact-form input[type="submit"]:hover {
+	background-color:orange
+}
+.contact-form input:focus, textarea:focus {
+	border-color:orange
+}
+
+.container-calender {
+  background: #ccc;
+  /* display: flex; */
+  font: 87.5%/1.5em 'Lato', sans-serif;
+  place-items: center;
+  /* max-width: 100%; */
+  margin: 0;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.calender-form {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.td {
+  padding: 0;
+}
+
+.container-calender {
+  position: relative;
+  width: 470px;
+}
+
+.container-calender header {
+  border-radius: 1em 1em 0 0;
+	background: #e66b6b;
+	color: #fff;
+	padding: 3em 2em;
+}
+
+.day {
+	font-size: 4em;
+	font-weight: 800;
+	line-height: 1em;
+}
+.month {
+  font-size: 8em;
+	font-weight: 800;
+	line-height: 1em;
+}
+
+.calender-form {
+  color: #000;
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: 800;
+}
+
+.calender-form thead {
+ color:#e66b6b;
+ font-weight: 500;
+ transform: uppercase;
+}
+
+.calender-form td {
+  padding: 0.5em 1em;
+	text-align: center;
+  
+}
+.calender-form td:hover {
+	background: #cacaca;
+  color: #fff;
+}
+
+.current-day {
+  color: #e66b6b;
+}
+
+.past-day, 
+.next-day {
+ color: #fff;
+}
+
+.ring-left,
+.ring-right{
+  position: relative;
+  top: 230px;;
+}

@@ -1,0 +1,112 @@
+/* @use postcss-preset-env; */
+
+.container {
+	font: 87.5%/1.5em 'Lato', sans-serif;
+	width: 50%;
+	margin: 100px auto;
+	background-color: lightgray;
+	
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td {
+	padding: 50px;
+}
+
+.calendar-container {
+    position: relative;
+	width: 500px;
+}
+
+.calendar-container header {
+	border-radius: 1em 1em 0 0;
+	background: #1abc9c;
+	color: #fff;
+	padding: 6em 5em;
+	position: absolute;
+	right: 100px;
+	left: 50px;
+	margin-top: 255px;
+}
+
+.header-day {
+	font-size: 8em;
+	font-weight: 900;
+	line-height: 1em;
+}
+
+.header-month {
+	font-size: 4em;
+	line-height: 1em;
+	text-transform: lowercase;
+}
+
+.calendar-form {
+	width: 900px;
+	height: 500px;
+	border-radius: 20px;
+	background-color: white;
+	position: relative;
+	z-index: -1;
+	color: black;
+}
+
+.calendar-form thead {
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.calendar-form td {
+	padding: .5em 1em;
+	text-align: center;
+}
+
+.calendar-form tbody td:hover {
+	background-color: #1abc9c;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.current-day {
+	color: #e66b6b;
+}
+
+.past-month,
+.next-month {
+	color: #cacaca;
+}
+
+.pin-left,
+.pin-right {
+	position: absolute;
+	top: 230px;
+}	
+
+.pin-left { 
+	left: 2em; 
+}
+.pin-right {
+	 right: 2em; 
+
+}
+
+
+.pin-left:before,
+.pin-left:after,
+.pin-right:before,
+.pin-right:after {
+	background: #fff;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+	content: "";
+	display: inline-block;
+	margin: 8px;
+	height: 32px;
+	width: 10px;
+}

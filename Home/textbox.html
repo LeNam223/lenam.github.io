@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数発生回数</title>
+  </head>
+  <body>
+    <button id="btn1" onclick="RepeatNtimes()">Input Number</button>
+    <input id="input_number" type="text" />
+    <p><span id="re"></span></p>
+    <script>
+      let arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+      let input = document.querySelector("#input_number");
+      let result = document.querySelector("#re");
+      function RepeatNtimes() {
+        let str = "";
+        CountIndex();
+
+        for (let i = 0; i < 10; i++) {
+          str += `${i} 数発生回数 : ${arr[i]} <br>`;
+        }
+
+        result.innerHTML = str;
+      }
+      function CountIndex() {
+        let num = Number(input.value);
+        str = "";
+
+        for (let j = 0; j <= num; j++) {
+          let rand = Math.floor(Math.random() * 10);
+          arr[rand]++;
+        }
+
+      }
+    </script>
+  </body>
+</html>
